@@ -18,7 +18,7 @@ type Xerror struct {
 	message string
 }
 
-// SetSysInternalError - set the default retcode of int32
+// SetSysInternalError - set the default system internal error code
 func SetSysInternalError(rc int32) {
 	defaultSysInternalError = int64(rc)
 }
